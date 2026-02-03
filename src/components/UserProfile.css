@@ -1,0 +1,17 @@
+.profile-card {
+  width: 320px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-bio {
+  font-size: 14px;
+  color: #555;
+  margin: 12px 0;
+}
+.profile-link {
+  color: #1e90ff;
+  text-decoration: none;
+}

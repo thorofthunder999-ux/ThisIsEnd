@@ -1,8 +1,11 @@
-import ProfileCard from "./components/ProfileCard.jsx";
-import "./App.css";
+import UserProfile from "./components/UserProfile";
 
 function App() {
-  return <ProfileCard />;
+  return (
+    <div>
+      <UserProfile />
+    </div>
+  );
 }
 
 export default App;
