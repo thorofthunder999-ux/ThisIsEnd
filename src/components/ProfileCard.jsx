@@ -1,18 +1,19 @@
 import "./ProfileCard.css";
-import ProfileHeader from "./profileheader.jsx";
-import ProfileStats from "./profilestats.jsx";
-import ProfileActions from "./profileactions.jsx";  
+import ProfileHeader from "./ProfileHeader.jsx";
+import ProfileStats from "./ProfileStats.jsx";
+import ProfileActions from "./ProfileActions.jsx";
 
-export default function ProfileCard() {
+function ProfileCard() {
   return (
     <div className="profile-card">
       <ProfileHeader />
       <p className="profile-bio">
-        Hello, my name is John! Bacon ipsum dolor amet short ribs prosciutto
-        strip steak, pig ham tongue buffalo beef ribs hamburger pork venison.
+        Hello, my name is John! Bacon ipsum dolor amet strip steak, pig ham tongue buffalo beef.
       </p>
       <ProfileStats />
       <ProfileActions />
     </div>
   );
 }
+
+export default ProfileCard;

@@ -1,12 +1,8 @@
-import ProfileCard from "./components/ProfileCard";
+import ProfileCard from "./components/ProfileCard.jsx";
 import "./App.css";
 
 function App() {
-  return (
-    <div className="app-container">
-      <ProfileCard />
-    </div>
-  );
+  return <ProfileCard />;
 }
 
 export default App;
